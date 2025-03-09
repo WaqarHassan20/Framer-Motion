@@ -1,9 +1,9 @@
-import BasicStarter from "./components/BasicStarter";
+import Gestures from "./components/Gestures";
 
 function App() {
   return (
     <>
-      <BasicStarter />
+      <Gestures />
     </>
   );
 }
