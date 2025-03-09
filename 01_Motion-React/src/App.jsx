@@ -1,9 +1,9 @@
-import Gestures from "./components/Gestures";
+import Scrolling from "./components/Scrolling";
 
 function App() {
   return (
     <>
-      <Gestures />
+      <Scrolling />
     </>
   );
 }
