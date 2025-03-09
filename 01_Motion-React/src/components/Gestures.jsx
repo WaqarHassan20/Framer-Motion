@@ -6,7 +6,11 @@ function Gestures() {
     <div className="w-screen h-screen bg-zinc-900 p-1 flex justify-center items-center">
       <motion.div
         className="w-60 h-40 m-10 bg-slate-500 rounded-lg"
-        transition={{ ease: "easeIn", duration: 0.7 }}
+        whileDrag={{ scale: 0.7 }}
+        drag
+        dragConstraints={{ left: 0, top: 0 }}
+        dragElastic={0.5}
+        transition={{ ease: "easeIn", duration: 0.5 }}
         whileHover={{
           borderRadius: "100%",
           backgroundColor: "yellowgreen",
