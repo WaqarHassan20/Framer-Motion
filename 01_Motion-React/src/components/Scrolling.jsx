@@ -4,7 +4,7 @@ function Scrolling() {
   const ScrollYprogress = useScroll().scrollYProgress;
 
   return (
-    <div className="p-20 text-center text-white bg-zinc-900 font-mono">
+    <div className="p-20 text-center text-white bg-slate-800 font-mono">
       <motion.div
         style={{ scaleX: ScrollYprogress }}
         className="bg-green-500 w-full h-3 origin-left rounded-full fixed top-0 left-0"

@@ -3,7 +3,7 @@ import React from "react";
 
 function BasicStarter() {
   return (
-    <div className="h-screen w-screen bg-zinc-900 flex flex-col gap-20">
+    <div className="h-screen w-full bg-purple-900 flex flex-col gap-20">
       <motion.div
         className="box w-40 h-40 m-10 bg-blue-500 border-2 border-white rounded-2xl"
         animate={{
